@@ -1,4 +1,4 @@
-%%% Load Data
+%%% Load Data %%%
 % Load high seat Turn phase Data from exel
 Cruise_Speed_line_High = readtable('Cruise Speed line.xlsx', 'sheet', 'High');
 % Load medium seat Turn phase Data from exel

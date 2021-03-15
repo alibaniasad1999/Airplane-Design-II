@@ -1,4 +1,4 @@
-%%% Load Data
+%%% Load Data %%%
 %%%%%%%%%%%%%%%% 50 Seat %%%%%%%%%%%%%%%%
 % Load 50 seat TakeOff Sea level phase Data from exel
 TakeOff_SL_Data50 = readtable('TakeOff.xlsx', 'sheet', '50 seat(sea level) (2)');

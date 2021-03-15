@@ -1,4 +1,4 @@
-%%% Load Data
+%%% Load Data %%%
 % Load 50 seat Turn phase Data from exel
 TurnData50 = readtable('Turn Maneuver.xlsx', 'sheet', '50 seat');
 % Load 76 seat Turn phase Data from exel
