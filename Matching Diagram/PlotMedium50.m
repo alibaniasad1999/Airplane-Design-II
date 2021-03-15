@@ -33,6 +33,7 @@ plot(WS_Landing_mid_50_5000ft, Landing_mid_50_5000ft)
 legend('Turn Maneuver', 'Take Off Sea Level', 'Take Off 5000 ft', 'Cruise Speed Line', 'Max Cruise Speed', ...
     'Stall Landing Sea Level', 'Stall Landing 5000 ft', 'Stall Take Off Sea Level', 'Stall Take Off 5000 ft', ...
     'Landing Sea Level', 'Landing 5000 ft');
-
-
+%%%%%%%%%%%%% Label %%%%%%%%%%%%%
+xlabel('W/S', 'Interpreter', 'latex');
+ylabel('T/W', 'Interpreter', 'latex');
 
