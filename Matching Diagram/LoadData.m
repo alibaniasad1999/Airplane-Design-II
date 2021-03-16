@@ -6,3 +6,4 @@ Max_Cruise_speed;
 Stall_Landing;
 Stall_TakeOff;
 Landing;
+Climb;
