@@ -7,3 +7,5 @@ Stall_Landing;
 Stall_TakeOff;
 Landing;
 Climb;
+Cruise_Ceiling;
+Absolute_Cruise;
