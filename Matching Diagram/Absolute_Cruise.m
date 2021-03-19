@@ -1,6 +1,6 @@
 %%% Load Data
 % Load high Criuse Ceiling phase Data from excel
-Absolute_Ceiling_High = readtable('Ceiling Caculations.xlsx', 'sheet', 'Abs High');
+Absolute_Cruise_Ceiling_High = readtable('Ceiling Caculations.xlsx', 'sheet', 'Abs High');
 % Load Medium Criuse Ceiling phase Data from excel
 Absolute_Cruise_Ceiling_Medium = readtable('Ceiling Caculations.xlsx', 'sheet', 'Abs Medium');
 % Load Low Criuse Ceiling phase Data from excel
