@@ -11,3 +11,7 @@ import Body
 Body.body_writer(file)
 import Wing
 Wing.wing_writer(file)
+import HorizontalTail
+HorizontalTail.horizontal_tail_writer(file)
+import VerticalTail
+VerticalTail.vertical_tail_writer(file)

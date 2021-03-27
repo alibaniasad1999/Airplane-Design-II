@@ -20,9 +20,9 @@ DHDADI = 1.0
 # TYPE = 3.0 Cranked platform AR>3
 TYPE = 1.0
 HorizontalTailAirfoil = 'NACA-H-4-0012'
-def wing_writer(file):
+def horizontal_tail_writer(file):
     # Name list
-    file.write( '$HTPLNF ')
+    file.write(' $HTPLNF ')
     file.write('CHRDTP = %s, ' % str(CHRDTP))
     file.write('CHRDR = %s,\n\t\t ' % str(CHRDR))
     file.write('SSPNE = %s, ' % str(SSPNE))
@@ -35,3 +35,4 @@ def wing_writer(file):
     # End of File
     file.write('$\n')
     file.write(HorizontalTailAirfoil)
+    file.write('\n')
