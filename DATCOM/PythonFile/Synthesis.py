@@ -1,9 +1,4 @@
 # add Synthesis files to DATCOM #
-# $SYNTHS XCG=9.698, ZCG=0.455,
-#          XW=9.088,  ZW=1.152,  ALIW=1.0,
-#          XH=17.87,  ZH=0.317,   ALIH=0.0,
-#          XV=17.048,  ZV=0.406,
-#          SCALE=1.0, VERTUP=.TRUE.$
 # Longitudinal Location of CG
 XCG = 9.698
 # Vertical Location of CG relative to reference plane

@@ -7,3 +7,5 @@ import Options
 Options.options_writer(file)
 import Synthesis
 Synthesis.synthesis_writer(file)
+import Body
+Body.body_writer(file)
