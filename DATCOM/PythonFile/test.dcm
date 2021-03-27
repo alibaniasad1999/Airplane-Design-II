@@ -23,3 +23,8 @@ $BODY X(1) = 0.0, 0.5, 1.0, 1.5, 2.0, 2.5, 3.0, 3.99,
 		BNOSE = 2.0, BLN = 3.99, 
 		BTAIL = 2.0, BLA = 7.8, 
 		ITYPE = 3.0, METHOD = 2.0, $
+$WGPLNF CHRDTP = 1.367, CHRDR = 2.96,
+		SSPNE = 11.34, SSPN = 12.75,
+		SAVSI = 35, CHSTAT = 0.25,
+		TWISTA = -1.2, DHDADI = 1.0,
+		TYPE = 1.0,$
