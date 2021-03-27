@@ -40,3 +40,4 @@ def wing_writer(file):
     file.write('TYPE = %s,' % str(TYPE))
     # End of File
     file.write('$\n')
+    file.write(WingAirfoil)
