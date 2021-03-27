@@ -9,7 +9,7 @@ BLREF = 10.0
 ROUGFC = 0.1
 def options_writer(file):
     # Name list
-    file.write('$OPTINS ')
+    file.write(' $OPTINS ')
     # Refrence Area
     file.write('SREF = %s, ' % str(SREF))
     # Mean Aerodynamic chord

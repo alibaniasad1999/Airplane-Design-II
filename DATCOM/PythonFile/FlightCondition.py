@@ -21,7 +21,7 @@ ALSCHD = [-6.0, -4.0, -2.0, 0.0, 2.0, 4.0, 6.0, 8.0,10.0, 12.0, 14.0, 16.0]
 LOOP = 2.0
 def flight_condition_writer(file):
     # Name list
-    file.write('$FLTCON ')
+    file.write(' $FLTCON ')
     # Take-off Weight
     file.write('WT = %s, ' % str(WT))
     # Program Looping Control

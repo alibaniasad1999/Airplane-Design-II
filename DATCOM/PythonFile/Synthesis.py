@@ -26,7 +26,7 @@ SCALE = 1.0
 VERTUP = '.TRUE.'
 def synthesis_writer(file):
     # Name list
-    file.write('$SYNTHS ')
+    file.write(' $SYNTHS ')
     # Longitudinal Location of CG
     file.write('XCG = %s, ' % str(XCG))
     # Vertical Location of CG relative to reference plane

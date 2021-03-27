@@ -31,7 +31,7 @@ METHOD = 2.0
 # ITYPE = 3.0, METHOD = 2.0$
 def body_writer(file):
     # Name list
-    file.write('$BODY ')
+    file.write(' $BODY ')
     # Array of longitudinal Distance
     LoopWriter.loop_writer('X', X, file)
     # Upper body

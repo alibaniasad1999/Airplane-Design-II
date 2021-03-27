@@ -28,7 +28,7 @@ TYPE = 1.0
 WingAirfoil = 'NACA-W-6-65-210'
 def wing_writer(file):
     # Name list
-    file.write('$WGPLNF ')
+    file.write(' $WGPLNF ')
     file.write('CHRDTP = %s, ' % str(CHRDTP))
     file.write('CHRDR = %s,\n\t\t' % str(CHRDR))
     file.write('SSPNE = %s, ' % str(SSPNE))
