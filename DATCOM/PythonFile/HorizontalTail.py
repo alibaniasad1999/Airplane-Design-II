@@ -1,4 +1,4 @@
-# add wing files to DATCOM #
+# add Horizontal Tail files to DATCOM #
 # Tip Chord
 CHRDTP = 1.367
 # Root Chord
@@ -19,10 +19,10 @@ DHDADI = 1.0
 # TYPE = 2.0 double delta platform AR<3
 # TYPE = 3.0 Cranked platform AR>3
 TYPE = 1.0
-WingAirfoil = 'NACA-4-6-65-210'
+HorizontalTailAirfoil = 'NACA-H-4-0012'
 def wing_writer(file):
     # Name list
-    file.write( '$WGPLNF ')
+    file.write( '$HTPLNF ')
     file.write('CHRDTP = %s, ' % str(CHRDTP))
     file.write('CHRDR = %s,\n\t\t ' % str(CHRDR))
     file.write('SSPNE = %s, ' % str(SSPNE))
@@ -34,4 +34,4 @@ def wing_writer(file):
     file.write('TYPE = %s,' % str(TYPE))
     # End of File
     file.write('$\n')
-    file.write(WingAirfoil)
+    file.write(HorizontalTailAirfoil)

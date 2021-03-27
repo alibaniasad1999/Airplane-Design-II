@@ -25,7 +25,7 @@ def flight_condition_writer(file):
     # Take-off Weight
     file.write('WT = %s, ' % str(WT))
     # Program Looping Control
-    file.write('LOOP = %s,\n\t\t' % str(LOOP))
+    file.write('LOOP = %s,\n\t\t ' % str(LOOP))
     # Number of Mach numbers
     file.write('NMACH = %s, ' % str(NMACH))
     # Array of Mach numbers

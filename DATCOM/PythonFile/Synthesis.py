@@ -30,26 +30,26 @@ def synthesis_writer(file):
     # Longitudinal Location of CG
     file.write('XCG = %s, ' % str(XCG))
     # Vertical Location of CG relative to reference plane
-    file.write('ZCG = %s, \n\t\t' % str(ZCG))
+    file.write('ZCG = %s, \n\t\t ' % str(ZCG))
     # Longitudinal Location of theoretical wing Apex
     file.write('XW = %s, ' % str(XW))
     # Vertical Location of theoretical wing Apex relative to reference plane
     file.write('ZW = %s, ' % str(ZW))
     # wing root chord incidence angle measured from reference plane
-    file.write('ALIW = %s, \n\t\t' % str(ALIW))
+    file.write('ALIW = %s, \n\t\t ' % str(ALIW))
     # Longitudinal Location of theoretical horizontal tail Apex
     file.write('XH = %s, ' % str(XH))
     # Vertical Location of theoretical horizontal tail Apex relative to reference plane
     file.write('ZH = %s, ' % str(ZH))
     # horizontal tail root chord incidence angle measured from reference plane
-    file.write('ALIH = %s, \n\t\t' % str(ALIH))
+    file.write('ALIH = %s, \n\t\t ' % str(ALIH))
     # Longitudinal Location of theoretical vertical tail Apex
     file.write('XV = %s, ' % str(XV))
     # Vertical Location of theoretical vertical tail Apex
-    file.write('ZV = %s, \n\t\t' % str(ZV))
+    file.write('ZV = %s, \n\t\t ' % str(ZV))
     # Scale factor
-    file.write('SCALE = %s, \n\t\t' % str(SCALE))
+    file.write('SCALE = %s, \n\t\t ' % str(SCALE))
     # Vertup
     file.write('VERTUP = %s, ' % VERTUP)
     # End of File
-    file.write('$\n')
+    file.write(' $\n')

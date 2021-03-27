@@ -41,11 +41,11 @@ def body_writer(file):
     # BNOSE 1.0 conical nose, BNOSE = 2.0 ogive Nose
     file.write('BNOSE = %s, ' % str(BNOSE))
     # Length of body nose
-    file.write('BLN = %s, \n\t\t' % str(BLN))
+    file.write('BLN = %s, \n\t\t ' % str(BLN))
     # BTAIL 1.0 conical tail, BNOSE = 2.0 ogive tail
     file.write('BTAIL = %s, ' % str(BTAIL))
     # Length of cylindrical afterbody
-    file.write('BLA = %s, \n\t\t' % str(BLA))
+    file.write('BLA = %s, \n\t\t ' % str(BLA))
     # ITYPE = 1 straight wing, no area rule
     # ITYPE = 2 swept wing, no area rule
     # ITYPE = 3 swept wing, area rule

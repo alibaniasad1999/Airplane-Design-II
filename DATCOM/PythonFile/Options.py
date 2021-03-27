@@ -19,4 +19,4 @@ def options_writer(file):
     # Surface Roughness
     file.write('ROUGFC = %s, ' % str(ROUGFC))
     # End of File
-    file.write('$\n')
+    file.write(' $\n')
