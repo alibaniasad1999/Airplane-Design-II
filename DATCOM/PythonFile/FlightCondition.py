@@ -39,4 +39,4 @@ def flight_condition_writer(file):
     # Array of angle of attacks
     LoopWriter.loop_writer('ALSCHD', ALSCHD, file)
     # End of File
-    file.write('$')
+    file.write('$\n')

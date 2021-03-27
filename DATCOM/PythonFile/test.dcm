@@ -7,3 +7,10 @@ $FLTCON WT = 59000.0, LOOP = 2.0,
 		NALPHA = 12.0, ALSCHD(1) = -6.0, -4.0, -2.0, 0.0, 2.0, 4.0, 6.0, 8.0, 
 		10.0, 12.0, 14.0, 16.0, 
 		$
+$OPTINS SREF = 10.0, CBARR = 10.0, BLREF = 10.0, ROUGFC = 0.1, $
+$SYNTHS XCG = 9.698, ZCG = 0.455, 
+		XW = 9.698, ZW = 9.698, ALIW = 1.0, 
+		XH = 9.698, ZH = 9.698, ALIH = 1.0, 
+		XV = 9.698, ZV = 9.698, 
+		SCALE = 1.0, 
+		VERTUP = .TRUE., $
