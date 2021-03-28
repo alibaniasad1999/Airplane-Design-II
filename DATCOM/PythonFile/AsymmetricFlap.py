@@ -34,4 +34,6 @@ def asymmetric_flap_writer(file):
     LoopWriter.loop_writer('DELTAL', DELTAL, file)
     file.write('CHRDFI = %s, ' % str(CHRDFI))
     file.write('CHRDFO = %s, ' % str(CHRDFO))
+    # End of File
+    file.write('$\n')
 
