@@ -8,7 +8,7 @@ SSPNE = 11.34
 # Semi Span (Theoretical)
 SSPN = 12.75
 # Sweep Angle
-SAVSI = 35
+SAVSI = 35.0
 # Reference chord station for inboard and outboard panel sweep angles, fraction of chord
 CHSTAT = 0.25
 # Twist angle (negative L.E rotated down)
