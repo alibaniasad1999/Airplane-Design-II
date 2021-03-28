@@ -23,7 +23,7 @@ DELTAL = [-24.0, -20.0, -10.0, -5.0, 0.0, 5.0, 10.0, 20.0, 24.0]
 CHRDFI = 0.4486
 # Outboard Chord
 CHRDFO = 0.30122
-def wing_writer(file):
+def asymmetric_flap_writer(file):
     # Name list
     file.write(' $ASYFLP ')
     file.write('STYPE = %s, ' % str(STYPE))
