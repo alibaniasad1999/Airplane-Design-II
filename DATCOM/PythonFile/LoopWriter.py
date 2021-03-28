@@ -7,4 +7,5 @@ def loop_writer(name, list_of_num, file):
         counter = counter + 1
         if counter == 8:
             file.write('\n\t\t ')
+            counter = 0
     file.write('\n\t\t ')
