@@ -3,13 +3,14 @@ import LoopWriter
 # Take-off Weight
 WT = 59000.0
 # Number of Mach numbers MAX 20
-NMACH = 1.0
+NMACH = 5.0
 # Array of Mach numbers
-MACH = [0.2]
+MACH = [0.2, 0.4, 0.6, 0.79, 0.8]
 # Number of altitudes MAX 20
-NALT = 5.0
+NALT = 19.0
 # Array of altitudes 0 : 360 2
-ALT = [0.0, 2000.0, 4000.0, 6000.0, 8000.0]
+ALT = [0.0, 2000.0, 4000.0, 6000.0, 8000.0, 10000.0, 12000.0, 14000.0, 16000.0, 18000.0, 20000.0, 22000.0, 24000.0,
+       26000.0, 28000.0, 30000.0, 32000.0, 34000.0, 36000.0]
 # Number of angle of attacks MAX 20
 NALPHA= 12.0
 # Array of angle of attacks
