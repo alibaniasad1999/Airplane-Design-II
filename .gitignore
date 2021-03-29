@@ -375,3 +375,8 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+*.6
+*.12
+*.csv
+*.lfi
+*.xml
