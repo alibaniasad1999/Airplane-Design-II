@@ -14,9 +14,9 @@ airfoil_up.reverse()
 XCORD = []
 YUPPER = []
 YLOWER = []
-for i in range(len(airfoil_up)):
+for i in range(len(airfoil)):
     if i % 2 == 1:
-        pass
+        continue
     if len(YLOWER) >= 50:
         break
     XCORD.append(airfoil_up[i][0])
