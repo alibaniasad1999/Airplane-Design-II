@@ -8,12 +8,12 @@ NMACH = 1.0
 MACH = [0.2]
 # Number of altitudes MAX 20
 NALT = 5.0
-# Array of altitudes
+# Array of altitudes 0 : 360 2
 ALT = [0.0, 2000.0, 4000.0, 6000.0, 8000.0]
 # Number of angle of attacks MAX 20
 NALPHA= 12.0
 # Array of angle of attacks
-ALSCHD = [-6.0, -4.0, -2.0, 0.0, 2.0, 4.0, 6.0, 8.0,10.0, 12.0, 14.0, 16.0]
+ALSCHD = [-6.0, -4.0, -2.0, 0.0, 2.0, 4.0, 6.0, 8.0, 10.0, 12.0, 14.0, 16.0]
 # Program Looping Control
 # 1: Vary altitude and Mach together
 # 2: Vary Mach at fixed altitude

@@ -1,20 +1,20 @@
 # add Horizontal Tail files to DATCOM #
-# Tip Chord
-CHRDTP = 1.367
-# Root Chord
-CHRDR = 2.96
+# Chord Tip
+CHRDTP = 1.7
+# Chord Root
+CHRDR = 6.0
 # Semi Span (Exposed)
-SSPNE = 11.34
+SSPNE = 20.5/2
 # Semi Span (Theoretical)
-SSPN = 12.75
+SSPN = 20.5/2
 # Sweep Angle
-SAVSI = 35.0
+SAVSI = 30.0
 # Reference chord station for inboard and outboard panel sweep angles, fraction of chord
-CHSTAT = 0.25
+CHSTAT = 0.5
 # Twist angle (negative L.E rotated down)
-TWISTA = -1.2
+TWISTA = 0.0
 # Dihedral Angle
-DHDADI = 1.0
+DHDADI = 0.0
 # TYPE = 1.0 straight tapered platform
 # TYPE = 2.0 double delta platform AR<3
 # TYPE = 3.0 Cranked platform AR>3
