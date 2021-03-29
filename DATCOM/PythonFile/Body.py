@@ -29,7 +29,7 @@ BLA = 7.8 ###################################################3
 ITYPE = 3.0
 # Method = 1 use exiting methods
 # Method = 2 use jorgensen methon
-METHOD = 1.0
+METHOD = 2.0
 
 def body_writer(file):
     # Name list
@@ -47,17 +47,17 @@ def body_writer(file):
     # BNOSE 1.0 conical nose, BNOSE = 2.0 ogive Nose
     # file.write('BNOSE = %s, ' % str(BNOSE))
     # Length of body nose
-    # file.write('BLN = %s, \n\t\t ' % str(BLN))
+    file.write('BLN = %s, \n\t\t ' % str(BLN))
     # BTAIL 1.0 conical tail, BNOSE = 2.0 ogive tail
-    # file.write('BTAIL = %s, ' % str(BTAIL))
+    file.write('BTAIL = %s, ' % str(BTAIL))
     # Length of cylindrical afterbody
     # file.write('BLA = %s, \n\t\t ' % str(BLA))
     # ITYPE = 1 straight wing, no area rule
     # ITYPE = 2 swept wing, no area rule
     # ITYPE = 3 swept wing, area rule
-    # file.write('ITYPE = %s, ' % str(ITYPE))
+    file.write('ITYPE = %s, ' % str(ITYPE))
     # Method = 1 use exiting methods
     # Method = 2 use jorgensen methon
-    # file.write('METHOD = %s, ' % str(METHOD))
+    file.write('METHOD = %s, ' % str(METHOD))
     # End of File
     file.write('$\n')
