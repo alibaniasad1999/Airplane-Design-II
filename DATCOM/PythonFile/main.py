@@ -1,4 +1,4 @@
-file = open('test.dcm', 'w')
+file = open('DATCOM_Export/Phoenix56Seat.dcm', 'w')
 import ControlCards
 ControlCards.control_cards_writer(file)
 import FlightCondition
