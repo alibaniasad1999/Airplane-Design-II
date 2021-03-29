@@ -9,6 +9,8 @@ import Synthesis
 Synthesis.synthesis_writer(file)
 import Body
 Body.body_writer(file)
+import Airfoil
+Airfoil.airfoil_writer(file)
 import Wing
 Wing.wing_writer(file)
 import HorizontalTail
