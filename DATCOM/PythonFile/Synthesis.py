@@ -10,15 +10,15 @@ ZW = -4.583
 # wing root chord incidence angle measured from reference plane
 ALIW = 2.0
 # Longitudinal Location of theoretical horizontal tail Apex
-XH = 64.167
+XH = 67.167
 # Vertical Location of theoretical horizontal tail Apex relative to reference plane
-ZH = 9.833
+ZH = 10.833
 # horizontal tail root chord incidence angle measured from reference plane
 ALIH = 0.0
 # Longitudinal Location of theoretical vertical tail Apex
-XV = 59.583
+XV = 57.583
 # Vertical Location of theoretical vertical tail Apex
-ZV = 0.0
+ZV = 1.0
 # Scale factor
 SCALE = 1.0
 # vertup = true vertical plane above ref plane
