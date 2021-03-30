@@ -17,7 +17,10 @@ YLOWER = []
 for i in range(len(airfoil)):
     if i % 2 == 1:
         continue
-    if len(YLOWER) >= 50:
+    if len(YLOWER) == 49:
+        XCORD.append(airfoil_up[-1][0])
+        YUPPER.append(airfoil_up[-1][1])
+        YLOWER.append(airfoil_down[-1][1])
         break
     XCORD.append(airfoil_up[i][0])
     YUPPER.append(airfoil_up[i][1])
