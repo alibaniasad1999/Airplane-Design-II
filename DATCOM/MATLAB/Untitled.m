@@ -1,2 +1,2 @@
-data = datcomimport('test.out');
+data = datcomimport('Phoenix56Seat.out');
 alldata = data{1};
