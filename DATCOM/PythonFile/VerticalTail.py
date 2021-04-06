@@ -1,12 +1,12 @@
 # add Vertical Tail files to DATCOM #
 # Chord Tip
-CHRDTP = 3.5
+CHRDTP = 3.44
 # Chord Root
-CHRDR = 12.5
+CHRDR = 12.29
 # Semi Span (Exposed)
-SSPNE = 5.667
+SSPNE = 5.667 + 0.5
 # Semi Span (Theoretical)
-SSPN = 10.0
+SSPN = 10.5
 # Sweep Angle
 SAVSI = 38.0
 # Reference chord station for inboard and outboard panel sweep angles, fraction of chord

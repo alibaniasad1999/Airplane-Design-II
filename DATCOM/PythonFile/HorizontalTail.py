@@ -4,9 +4,9 @@ CHRDTP = 1.7
 # Chord Root
 CHRDR = 6.0
 # Semi Span (Exposed)
-SSPNE = 20.5/2
+SSPNE = 21.07/2
 # Semi Span (Theoretical)
-SSPN = 20.5/2
+SSPN = 21.07/2
 # Sweep Angle
 SAVSI = 30.0
 # Reference chord station for inboard and outboard panel sweep angles, fraction of chord
