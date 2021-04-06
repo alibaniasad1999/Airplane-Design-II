@@ -15,6 +15,8 @@ CHSTAT = 0.5
 TWISTA = 0.0
 # Dihedral Angle
 DHDADI = 0.0
+# LONGITUDIPIL DISTANCE BETWEEN CG AND CENTROID OF SH
+RLPH = 69.167 - 39.208
 # TYPE = 1.0 straight tapered platform
 # TYPE = 2.0 double delta platform AR<3
 # TYPE = 3.0 Cranked platform AR>3
@@ -31,6 +33,7 @@ def horizontal_tail_writer(file):
     file.write('CHSTAT = %s,\n\t\t ' % str(CHSTAT))
     file.write('TWISTA = %s, ' % str(TWISTA))
     file.write('DHDADI = %s,\n\t\t ' % str(DHDADI))
+    file.write('RLPH = %s, ' % str(RLPH))
     file.write('TYPE = %s,' % str(TYPE))
     # End of File
     file.write('$\n')

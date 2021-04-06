@@ -12,7 +12,7 @@ ALIW = 2.0
 # Longitudinal Location of theoretical horizontal tail Apex
 XH = 69.167
 # Vertical Location of theoretical horizontal tail Apex relative to reference plane
-ZH = 10.833
+ZH = 11.2
 # horizontal tail root chord incidence angle measured from reference plane
 ALIH = 0.0
 # Longitudinal Location of theoretical vertical tail Apex
