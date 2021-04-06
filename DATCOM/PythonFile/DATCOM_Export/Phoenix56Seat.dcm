@@ -12,7 +12,7 @@ DAMP
  $OPTINS SREF = 702.4, CBARR = 8.167, BLREF = 81.683, ROUGFC = 0.00025,  $
  $SYNTHS XCG = 39.208, ZCG = 0.0, 
 		 XW = 28.75, ZW = -4.583, ALIW = 2.0, 
-		 XH = 67.167, ZH = 10.833, ALIH = 0.0, 
+		 XH = 69.167, ZH = 10.833, ALIH = 0.0, 
 		 XV = 57.583, ZV = 1.0, 
 		 SCALE = 1.0, 
 		 VERTUP = .TRUE.,  $
