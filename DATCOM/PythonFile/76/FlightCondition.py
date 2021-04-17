@@ -1,11 +1,11 @@
 import LoopWriter
 # add Flight Conditions files to DATCOM #
 # Take-off Weight
-WT = 59000.0
+WT = 80000.0
 # Number of Mach numbers MAX 20
-NMACH = 5.0
+NMACH = 9.0
 # Array of Mach numbers
-MACH = [0.05, 0.1, 0.2, 0.3, 0.4]
+MACH = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.79, 0.8]
 # Number of altitudes MAX 20
 NALT = 19.0
 # Array of altitudes 0 : 360 2

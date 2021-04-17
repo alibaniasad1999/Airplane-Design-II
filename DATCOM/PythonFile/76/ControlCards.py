@@ -5,6 +5,7 @@ DIM = 'FT'
 DERIV = 'DEG'
 
 
+
 # Dynamic Derivatives on: DAMP
 def control_cards_writer(file):
     # Dimensions
@@ -13,3 +14,6 @@ def control_cards_writer(file):
     file.write('DERIV %s\n' % DERIV)
     # Dynamic Derivatives
     file.write('DAMP\n')
+    # for part
+    file.write('PART\n')
+    file.write('BUILD\n')

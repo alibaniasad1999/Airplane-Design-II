@@ -1,22 +1,22 @@
 # add Synthesis files to DATCOM #
 # Longitudinal Location of CG
-XCG = 39.208
+XCG = 51.575
 # Vertical Location of CG relative to reference plane
 ZCG = 0.0
 # Longitudinal Location of theoretical wing Apex
-XW = 28.75
+XW = 37.0416
 # Vertical Location of theoretical wing Apex relative to reference plane
 ZW = -4.583
 # wing root chord incidence angle measured from reference plane
 ALIW = 2.0
 # Longitudinal Location of theoretical horizontal tail Apex
-XH = 69.167
+XH = 69.167+15
 # Vertical Location of theoretical horizontal tail Apex relative to reference plane
 ZH = 11.2
 # horizontal tail root chord incidence angle measured from reference plane
 ALIH = 0.0
 # Longitudinal Location of theoretical vertical tail Apex
-XV = 57.583
+XV = 57.583+15
 # Vertical Location of theoretical vertical tail Apex
 ZV = 1.0
 # Scale factor

@@ -1,12 +1,12 @@
 # add wing files to DATCOM #
 # Chord Tip
-CHRDTP = 4.34
+CHRDTP = 4.76
 # Chord Root
-CHRDR = 15.5
+CHRDR = 17.0
 # Semi Span (Exposed)
-SSPNE = 39.0
+SSPNE = 89.44/2 - 3.9
 # Semi Span (Theoretical)
-SSPN = 81.69/2
+SSPN = 89.44/2
 # Sweep Angle
 SAVSI = 30.0
 # Reference chord station for inboard and outboard panel sweep angles, fraction of chord (اگه ارور دا 0.25 بزار(

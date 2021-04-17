@@ -4,7 +4,7 @@ CHRDTP = 3.44
 # Chord Root
 CHRDR = 12.29
 # Semi Span (Exposed)
-SSPNE = 5.667 + 0.5
+SSPNE = 9.2
 # Semi Span (Theoretical)
 SSPN = 10.5
 # Sweep Angle

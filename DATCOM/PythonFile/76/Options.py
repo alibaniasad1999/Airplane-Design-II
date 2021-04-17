@@ -1,10 +1,10 @@
 # add Options  files to DATCOM #
 # Refrence Area
-SREF = 702.4
+SREF = 842.104
 # Mean Aerodynamic chord
-CBARR = 8.167
+CBARR = 12.0133
 # Wing Span
-BLREF = 81.683
+BLREF = 89.44
 # Surface Roughness
 ROUGFC = 0.00025
 def options_writer(file):
