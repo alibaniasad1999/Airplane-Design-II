@@ -1,7 +1,7 @@
 %%% Load Data %%%
 LoadData;
 %%%%%%%%%%%%%%%%%%%%%%% Medium 50 %%%%%%%%%%%%%%%%%%%%%%%
-figure;
+figure1 = figure();
 hold;
 axis([20 150 0 0.9])
 %%%% Turn %%%%

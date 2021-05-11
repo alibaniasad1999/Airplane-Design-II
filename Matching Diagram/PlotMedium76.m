@@ -1,7 +1,7 @@
 %%% Load Data %%%
 LoadData;
 %%%%%%%%%%%%%%%%%%%%%%% Medium 50 %%%%%%%%%%%%%%%%%%%%%%%
-figure;
+figure1 = figure();
 hold;
 axis([20 150 0 0.9])
 %%%% Turn %%%%
@@ -50,3 +50,4 @@ legend('Turn Maneuver', 'Take Off Sea Level', 'Take Off 5000 ft', 'Cruise Speed 
 xlabel('W/S', 'Interpreter', 'latex');
 ylabel('T/W', 'Interpreter', 'latex');
 
+print(figure1, 'MachingDiagram76.png','-dpng','-r1500');
