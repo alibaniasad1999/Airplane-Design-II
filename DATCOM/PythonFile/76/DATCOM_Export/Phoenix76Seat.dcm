@@ -4,10 +4,9 @@ DAMP
 PART
 BUILD
  $FLTCON WT = 80000.0, LOOP = 2.0,
-		 NMACH = 1.0, MACH(1) = 0.6,
-		 NALT = 1.0, ALT(1) = 32000.0,
-		 NALPHA = 12.0, ALSCHD(1) = -6.0, -4.0, -2.0, 0.0, 2.0, 4.0, 6.0, 8.0, 
-		 10.0, 12.0, 14.0, 16.0, 
+		 NMACH = 1.0, MACH(1) = 0.2, 
+		 NALT = 1.0, ALT(1) = 0.0, 
+		 NALPHA = 1.0, ALSCHD(1) = 2.0, 
 		 $
  $OPTINS SREF = 842.104, CBARR = 12.0133, BLREF = 89.44, ROUGFC = 0.00025,  $
  $SYNTHS XCG = 51.575, ZCG = 0.0, 
@@ -65,13 +64,12 @@ BUILD
 		 TWISTA = 0.0, DHDADI = 0.0,
 		 RLPH = 29.959000000000003, TYPE = 1.0,$
 NACA-H-4-0012
- $SYMFLP FTYPE = 1.0,
-		 NDELTA = 9.0,
-		 DELTA(1) = -30.0, -23.0, -15.0, -10.0, -5.0, 0.0, 5.0, 10.0, 
-		 16.0, 
-		 CHRDFI = 0.3, CHRDFO = 0.3,
-		 SPANFI = 2.1, SPANFO = 9.45,
-		 CB = 0.2, TC = 0.099, NTYPE = 2.0, $
+ $SYMFLP FTYPE = 1.0,                                                           
+    NDELTA = 2.0,                                                                
+    DELTA(1) = -30.0, -25.0,                                                     
+    CHRDFI = 0.1, CHRDFO = 0.3,                                                  
+    SPANFI = 2.1, SPANFO = 9.45,                                                 
+    CB = 0.2, TC = 0.099, NTYPE = 2.0, $ 
  $VTPLNF CHRDTP = 3.44, CHRDR = 12.29,
 		 SSPNE = 9.2, SSPN = 10.5,
 		 SAVSI = 38.0, CHSTAT = 0.5,

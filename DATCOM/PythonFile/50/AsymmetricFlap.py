@@ -40,7 +40,7 @@ TC = 0.099
 NTYPE = 2.0
 def asymmetric_flap_writer(file):
     # Name list
-    file.write(' $ASYFLP ')
+    file.write(' $SYMFLP ')
     file.write('FTYPE = %s,\n\t\t ' % str(FTYPE))
     file.write('NDELTA = %s,\n\t\t ' % str(NDELTA))
     LoopWriter.loop_writer('DELTA', DELTA, file)
