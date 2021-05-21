@@ -3,16 +3,16 @@ def wing_writer(file, tc, Sref, AR, Sweep):
     import math
     # add wing files to DATCOM #
     # b Span exposed
-    b = math.sqrt(AR * Sref)
+    b = round(math.sqrt(AR * Sref), 3)
     # Chord Tip
-    CHRDTP = 2 * Sref / ((1 + tc) * b) * tc
+    CHRDTP = round(2 * Sref / ((1 + tc) * b) * tc, 3)
     # Chord Root
-    CHRDR = 2 * Sref / ((1 + tc) * b)
+    CHRDR = round(2 * Sref / ((1 + tc) * b), 3)
     # Semi Span (Exposed)
     # 1 foot in body
     SSPNE = b - 1.0
     # Semi Span (Theoretical)
-    SSPN = 81.69 / 2
+    SSPN = round(81.69 / 2, 3)
     # Sweep Angle
     SAVSI = Sweep
     # Reference chord station for inboard and outboard panel sweep angles, fraction of chord (اگه ارور دا 0.25 بزار(

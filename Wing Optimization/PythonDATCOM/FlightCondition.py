@@ -5,7 +5,7 @@ WT = 59000.0
 # Number of Mach numbers MAX 20
 NMACH = 1.0
 # Array of Mach numbers
-MACH = [0.79]
+MACH = [0.6]
 # Number of altitudes MAX 20
 NALT = 1.0
 # Array of altitudes 0 : 360 2
@@ -13,7 +13,7 @@ ALT = [32000.0]
 # Number of angle of attacks MAX 20
 NALPHA= 1.0
 # Array of angle of attacks
-ALSCHD = [2.0]
+ALSCHD = [0.16]
 # Program Looping Control
 # 1: Vary altitude and Mach together
 # 2: Vary Mach at fixed altitude
