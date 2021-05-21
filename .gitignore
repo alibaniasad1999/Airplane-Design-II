@@ -380,3 +380,5 @@ cython_debug/
 *.csv
 *.lfi
 *.xml
+*.dcm
+*.out
