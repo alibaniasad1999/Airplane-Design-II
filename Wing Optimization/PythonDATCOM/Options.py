@@ -6,7 +6,7 @@ def options_writer(file, AR):
     # Mean Aerodynamic chord
     CBARR = 8.167
     # Wing Span
-    BLREF = math.sqrt(AR * SREF)
+    BLREF = round(math.sqrt(AR * SREF), 3)
     # Surface Roughness
     ROUGFC = 0.00025
     # Name list

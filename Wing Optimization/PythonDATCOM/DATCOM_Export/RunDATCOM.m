@@ -1,4 +1,4 @@
-function lift_co = RunDATCOM(name)
+function [lift_co, drag_co] = RunDATCOM(name)
 run_name = append(name, '.dcm &');
 system(run_name);
 export_name = append(name, '.out');
@@ -13,3 +13,4 @@ delete *.csv;
 delete *.lfi;
 delete *.xml
 lift_co = data.cl;
+drag_co = dara.cd'

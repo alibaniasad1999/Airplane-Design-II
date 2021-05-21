@@ -1,10 +1,10 @@
 import numpy as np
 AR_list = np.arange(8, 11, 0.1).tolist()
-Sweep_list = np.arange(15, 40).tolist()
+Sweep_list = np.arange(15, 35, 1.5).tolist()
 for i in range(len(AR_list)):
     AR = round(AR_list[i], 1)
     for j in range(len(Sweep_list)):
-        Sweep = round(Sweep_list[j])
+        Sweep = round(Sweep_list[j], 1)
         filename = 'DATCOM_Export/Phoenix50Seat-' + 'AR' + str(AR) + '-SW' + str(Sweep) + '.dcm'
         file = open(filename, 'w')
         import ControlCards
