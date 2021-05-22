@@ -5,7 +5,7 @@ for i in range(len(AR_list)):
     AR = round(AR_list[i], 1)
     for j in range(len(Sweep_list)):
         Sweep = round(Sweep_list[j], 1)
-        filename = 'DATCOM_Export/Phoenix50Seat-taper0.25' + 'AR' + str(AR) + '-SW' + str(Sweep) + '.dcm'
+        filename = 'DATCOM_Export/Phoenix50Seat-taper0.30' + 'AR' + str(AR) + '-SW' + str(Sweep) + '.dcm'
         file = open(filename, 'w')
         import ControlCards
         ControlCards.control_cards_writer(file)
@@ -19,9 +19,9 @@ for i in range(len(AR_list)):
         Body.body_writer(file)
         import Airfoil
         Airfoil.airfoil_writer(file)
-        # def wing_writer(file, tc, Sref, AR, Sweep):
+        # def wing_writer(file, taper, Sref, AR, Sweep):
         import Wing
-        Wing.wing_writer(file, 0.25, 702.4, AR, Sweep)
+        Wing.wing_writer(file, 0.3, 702.4, AR, Sweep)
         import VerticalTail
         VerticalTail.vertical_tail_writer(file)
         import HorizontalTail
