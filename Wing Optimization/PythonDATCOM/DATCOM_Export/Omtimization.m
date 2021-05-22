@@ -19,4 +19,3 @@ for i = 1:length(AR_list)
     end
 end
 delete *.dcm % delete all DATCOM file
-        
