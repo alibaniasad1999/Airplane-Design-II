@@ -3,6 +3,9 @@ run_name = append(name, '.dcm &');
 system(run_name);
 pause(0.2)
 export_name = append(name, '.csv');
+while ~isfile(export_name)
+    pause(0.1)
+end
 data = readtable(export_name);
 %%% End Tasks %%%
 !taskkill -f -im ac3dview.exe
