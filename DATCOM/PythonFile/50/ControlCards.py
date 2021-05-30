@@ -15,4 +15,3 @@ def control_cards_writer(file):
     file.write('DAMP\n')
     # Add Part
     file.write('PART\n')
-    file.write('BUILD\n')
