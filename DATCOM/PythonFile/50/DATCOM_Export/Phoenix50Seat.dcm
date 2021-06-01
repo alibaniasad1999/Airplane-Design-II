@@ -71,3 +71,10 @@ NACA-H-4-0012
 		 SAVSI = 38.0, CHSTAT = 0.5,
 		 TWISTA = 0.0, TYPE = 1.0,$
 NACA-V-4-0012
+ $SYMFLP FTYPE = 1.0,
+		 NDELTA = 9.0,
+		 DELTA(1) = -30.0, -23.0, -15.0, -10.0, -5.0, 0.0, 5.0, 10.0, 
+		 16.0, 
+		 CHRDFI = 0.1, CHRDFO = 0.3,
+		 SPANFI = 2.1, SPANFO = 9.45,
+		 CB = 0.2, TC = 0.099, NTYPE = 2.0, $

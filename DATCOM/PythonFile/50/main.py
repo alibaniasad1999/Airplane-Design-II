@@ -17,4 +17,6 @@ import HorizontalTail
 HorizontalTail.horizontal_tail_writer(file)
 import VerticalTail
 VerticalTail.vertical_tail_writer(file)
+import AsymmetricFlap
+AsymmetricFlap.asymmetric_flap_writer(file)
 
