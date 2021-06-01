@@ -23,9 +23,9 @@ NDELTA = 9.0
 DELTA = [-30.0, -23.0, -15.0, -10.0, -5.0, 0.0, 5.0, 10.0, 16.0]
 # haji khodaei nemishe model kard page 51
 # Flap chord at inboard end of flap, measured parallel to longitudinal axis
-CHRDFI = 0.1
+CHRDFI = 0.1 * 6
 # Flap chord at outboard end of flap, measured parallel to longitudinal axis
-CHRDFO = 0.3
+CHRDFO = 0.3 * 6
 # Span location of inboard end of flap, measured perpendicular to vertical plane of symmetry
 SPANFI = 2.1
 # Span location of outboard end of flap, measured perpendicular to vertical plane of symmetry
