@@ -13,6 +13,7 @@ delete *.csv;
 delete *.lfi;
 delete *.xml;
 delete *.dat;
+delete *.out;
 %%% End Tasks %%%
 !taskkill -f -im cmd.exe
 !taskkill -f -im ac3dview.exe
