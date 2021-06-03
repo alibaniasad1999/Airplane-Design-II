@@ -14,7 +14,7 @@ XH = 69.167+15
 # Vertical Location of theoretical horizontal tail Apex relative to reference plane
 ZH = 11.2
 # horizontal tail root chord incidence angle measured from reference plane
-ALIH = 0.0
+ALIH = -2.0
 # Longitudinal Location of theoretical vertical tail Apex
 XV = 57.583+15
 # Vertical Location of theoretical vertical tail Apex

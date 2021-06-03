@@ -1,12 +1,21 @@
 Load_DATCOM_data;
 %%% CL elevator %%%
-Y_cl = data.dcl_sym;
-X = -30:5:10; X = X';
-Cl_elevator = fit(X,Y_cl,'poly1');
+csvArrayData = table2array(csvData);
+Y_cl = zeros(1);
+for i = 1:length(data.delta)
+    finder = find(csvArrayData == data.delta(i));
+    Y_cl(i) = csvArrayData(finder(1), 2);
+end
+X = data.delta; X = X';
+Cl_elevator = fit(X,Y_cl','poly1');
 Cl_delta_elevator = Cl_elevator.p1;
 %%% Cm elevator %%%
-Y_cm = data.dcm_sym;
-Cm_elevator = fit(X,Y_cm,'poly1');
+Y_cm = zeros(1);
+for i = 1:length(data.delta)
+    finder = find(csvArrayData == data.delta(i));
+    Y_cm(i) = csvArrayData(finder(2), 2);
+end
+Cm_elevator = fit(X,Y_cm','poly1');
 Cm_delta_elevator = Cm_elevator.p1;
 %%% Cl zero %%%
 zero_index = find(data.alpha == 0);
