@@ -1,6 +1,6 @@
 clc;
 clear;
-Load_DATCOM_data;
+Load_DATCOM_data76;
 %%% CL elevator %%%
 csvArrayData = table2array(csvData);
 Y_cl = zeros(1);

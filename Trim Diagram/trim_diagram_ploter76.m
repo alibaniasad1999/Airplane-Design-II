@@ -1,17 +1,17 @@
 %%% load data %%%
-make_data;
+make_data76;
 %%% ploter %%%
 %%% Cm vs Cl %%%
 delta_elevator = data.delta;
-Cl_min = 0:.1:3;
+Cl = 0:.1:3;
 figure1 = figure();
 xlabel('$C_m$','Interpreter','latex');
 ylabel('$C_l$','Interpreter','latex');
 hold on;
 for i = 1:length(delta_elevator)
-    Cm = Cm_zero_bar + (Cm_alpha / Cl_alpha) * Cl_min +...
+    Cm = Cm_zero_bar + (Cm_alpha / Cl_alpha) * Cl +...
     Cm_delta_elevator_bar * delta_elevator(i);
-    plot(Cm, Cl_min);
+    plot(Cm, Cl);
 end
 axis([-0.4 0.4 0 2]);
 set ( gca, 'xdir', 'reverse' );
@@ -69,7 +69,7 @@ legend('$\delta_e = -30^{\circ}$',...
         '$\delta_e = 10^{\circ}$','$\delta_e = 20^{\circ}$',...
         '$\max x_{cg}$', '$\min x_{cg}$', 'Wing~Stall', '$\min~ C_l$', 'Interpreter','latex')
 % Save plot %
-print(figure1, 'TrimDiagram.png','-dpng','-r300');
+print(figure1, 'TrimDiagram76.png','-dpng','-r300');
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
