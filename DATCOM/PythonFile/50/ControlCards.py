@@ -3,8 +3,6 @@
 DIM = 'FT'
 # Derivatives Unit DEG = degree
 DERIV = 'DEG'
-
-
 # Dynamic Derivatives on: DAMP
 def control_cards_writer(file):
     # Dimensions
