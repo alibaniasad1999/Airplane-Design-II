@@ -79,7 +79,7 @@ Cm_stall_axis = -0.4:0.01:0.4;
 plot(Cm_stall_axis, tail_Stall_line.p1 * Cm_stall_axis +tail_Stall_line.p2, 'k:', 'linewidth', 2);
 %%% min Cl %%%
 Cm_min_cl = -4:.01:0.4;
-Cl_min = ones(1, length(Cm_min_cl)) * 0.3;
+Cl_min = ones(1, length(Cm_min_cl)) * 0.34;
 plot(Cm_min_cl,Cl_min, 'k:', 'linewidth', 2);
 %%% legends never die %%%
 legend('$\delta_e = -30^{\circ}$',...
