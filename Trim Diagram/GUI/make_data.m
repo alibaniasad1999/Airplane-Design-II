@@ -1,5 +1,5 @@
-clc;
-clear;
+%clc;
+%clear;
 Load_DATCOM_data;
 %%% CL elevator %%%
 csvArrayData = table2array(csvData);
@@ -38,4 +38,11 @@ epsilon_zero = data.eps(zero_index);
 derivate_epsilon_zero = data.depsdalp(zero_index);
 Cl_iH = 0;
 Cm_iH = 0;
-
+iH = 0;
+x_cg = 39.208;
+x_wing = 28.75;
+wing_chord = 15.5;
+x_cg_max = 42.33;
+x_cg_min = 38.92;
+x_cg_bar = (x_cg - x_wing) / wing_chord;
+x_cg = x_cg_bar;
