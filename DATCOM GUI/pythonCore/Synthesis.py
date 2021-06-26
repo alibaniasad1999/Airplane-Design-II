@@ -1,26 +1,31 @@
 # add Synthesis files to DATCOM #
+import csv
+with open('Synthesis.csv') as f:
+    reader = csv.reader(f)
+    for row in reader:
+        a = row
 # Longitudinal Location of CG
-XCG = 39.208
+XCG = round(float(a[0]), 4)
 # Vertical Location of CG relative to reference plane
-ZCG = 0.0
+ZCG = round(float(a[1]), 4)
 # Longitudinal Location of theoretical wing Apex
-XW = 28.75
+XW = round(float(a[2]), 4)
 # Vertical Location of theoretical wing Apex relative to reference plane
-ZW = -4.583
+ZW = round(float(a[3]), 4)
 # wing root chord incidence angle measured from reference plane
-ALIW = 1.3
-# Longitudinal Location of theoretical horizontal tail Apex
-XH = 69.167
-# Vertical Location of theoretical horizontal tail Apex relative to reference plane
-ZH = 11.2
+ALIW = round(float(a[4]), 4)
 # horizontal tail root chord incidence angle measured from reference plane
-ALIH = -2.0
+ALIH = round(float(a[5]), 4)
+# Longitudinal Location of theoretical horizontal tail Apex
+XH = round(float(a[6]), 4)
+# Vertical Location of theoretical horizontal tail Apex relative to reference plane
+ZH = round(float(a[7]), 4)
 # Longitudinal Location of theoretical vertical tail Apex
-XV = 57.583
+XV = round(float(a[8]), 4)
 # Vertical Location of theoretical vertical tail Apex
-ZV = 1.0
+ZV = round(float(a[9]), 4)
 # Scale factor
-SCALE = 1.0
+SCALE = round(float(a[10]), 4)
 # vertup = true vertical plane above ref plane
 # vertup = false vertical plane below ref plane
 VERTUP = '.TRUE.'

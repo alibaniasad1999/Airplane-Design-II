@@ -1,12 +1,17 @@
 # add Options  files to DATCOM #
+import csv
+with open('Options.csv') as f:
+    reader = csv.reader(f)
+    for row in reader:
+        a = row
 # Refrence Area
-SREF = 702.4
+SREF = round(float(a[0]), 2)
 # Mean Aerodynamic chord
-CBARR = 8.167
+CBARR = round(float(a[1]), 4)
 # Wing Span
-BLREF = 81.683
+BLREF = round(float(a[2]), 2)
 # Surface Roughness
-ROUGFC = 0.00025
+ROUGFC = round(float(a[3]), 7)
 def options_writer(file):
     # Name list
     file.write(' $OPTINS ')

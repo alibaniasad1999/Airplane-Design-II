@@ -3,13 +3,13 @@ import LoopWriter
 # Take-off Weight
 import csv
 #read csv file
-with open('../TOW.csv') as f:
+with open('TOW.csv') as f:
     reader = csv.reader(f)
     for row in reader:
         a = row
 WT = float(a[0])
 # Number of Mach numbers MAX 20
-with open('../MACH.csv') as f:
+with open('MACH.csv') as f:
     reader = csv.reader(f)
     for row in reader:
         a = row
@@ -18,7 +18,7 @@ NMACH = round(float(len(a)), 2)
 MACH = [round(float(i), 3) for i in a]
 # Number of altitudes MAX 20
 #read csv file
-with open('../Altitude.csv') as f:
+with open('Altitude.csv') as f:
     reader = csv.reader(f)
     for row in reader:
         a = row
@@ -26,7 +26,7 @@ NALT = round(float(len(a)), 2)
 # Array of altitudes 0 : 360 2
 ALT = [round(float(i), 2) for i in a]
 # Number of angle of attacks MAX 20
-with open('../AngleOfAttack.csv') as f:
+with open('AngleOfAttack.csv') as f:
     reader = csv.reader(f)
     for row in reader:
         a = row
@@ -37,7 +37,7 @@ ALSCHD = [round(float(i), 2) for i in a]
 # 1: Vary altitude and Mach together
 # 2: Vary Mach at fixed altitude
 # 3: Vary altitude at fixed Mach
-with open('../AngleOfAttack.csv') as f:
+with open('AngleOfAttack.csv') as f:
     reader = csv.reader(f)
     for row in reader:
         a = row

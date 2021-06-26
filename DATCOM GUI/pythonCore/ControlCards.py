@@ -1,7 +1,7 @@
 # add Control files to DATCOM #
 # Dimensions M for metric FT for imperial unit
 import csv
-with open('../ControlCards.csv') as f:
+with open('ControlCards.csv') as f:
     reader = csv.reader(f)
     for row in reader:
         a = row

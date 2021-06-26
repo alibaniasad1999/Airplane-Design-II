@@ -1,25 +1,29 @@
 # add wing files to DATCOM #
+import csv
+with open('Wing.csv') as f:
+    reader = csv.reader(f)
+    for row in reader:
+        a = row
 # Chord Tip
-CHRDTP = 4.34
+CHRDTP = round(float(a[0]), 4)
 # Chord Root
-CHRDR = 15.5
+CHRDR = round(float(a[1]), 4)
 # Semi Span (Exposed)
-SSPNE = 39.0
+SSPNE = round(float(a[2]), 4)
 # Semi Span (Theoretical)
-SSPN = 81.69/2
+SSPN = round(float(a[3]), 4)
 # Sweep Angle
-SAVSI = 30.0
+SAVSI = round(float(a[4]), 4)
 # Reference chord station for inboard and outboard panel sweep angles, fraction of chord (اگه ارور دا 0.25 بزار(
-CHSTAT = 0.5
+CHSTAT = round(float(a[5]), 4)
 # Twist angle (negative L.E rotated down)
-TWISTA = 0.0
+TWISTA = round(float(a[6]), 4)
 # Dihedral Angle
-DHDADI = 4.0
+DHDADI = round(float(a[7]), 4)
 # TYPE = 1.0 straight tapered platform
 # TYPE = 2.0 double delta platform AR<3
 # TYPE = 3.0 Cranked platform AR>3
-TYPE = 1.0
-# WingAirfoil = 'NACA-W-6-65-210'
+TYPE = round(float(a[8]), 2)
 def wing_writer(file):
     # Name list
     file.write(' $WGPLNF ')
