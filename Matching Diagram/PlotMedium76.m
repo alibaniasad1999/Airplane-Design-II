@@ -41,11 +41,12 @@ plot(WS_Climb_OEI_O_mid_76, Climb_OEI_O_mid_76)
 plot(WS_Cruise_Ceiling_mid_76, Cruise_Ceiling_mid_76);
 % Absolute %
 plot(WS_Absolute_Cruise_Ceiling_mid_76, Absolute_Cruise_Ceiling_mid_76)
+plot(95,0.353,'r*')
 %%%%%%%%%%%%% Legend %%%%%%%%%%%%%
 legend('Turn Maneuver', 'Take Off Sea Level', 'Take Off 5000 ft', 'Cruise Speed Line', 'Max Cruise Speed', ...
     'Stall Landing Sea Level', 'Stall Landing 5000 ft', 'Stall Take Off Sea Level', 'Stall Take Off 5000 ft', ...
     'Landing Sea Level', 'Landing 5000 ft', 'Climb All Engine Operating', 'Climb OEI retracted', ...
-    'Climb OEI Open Landing Gear', 'Cruise Ceiling', 'Absolute Cruise Ceiling');
+    'Climb OEI Open Landing Gear', 'Cruise Ceiling', 'Absolute Cruise Ceiling', 'Design point');
 %%%%%%%%%%%%% Label %%%%%%%%%%%%%
 xlabel('W/S', 'Interpreter', 'latex');
 ylabel('T/W', 'Interpreter', 'latex');
