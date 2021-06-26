@@ -1,24 +1,52 @@
 import LoopWriter
 # add Flight Conditions files to DATCOM #
 # Take-off Weight
-WT = 59000.0
+import csv
+#read csv file
+with open('../TOW.csv') as f:
+    reader = csv.reader(f)
+    for row in reader:
+        a = row
+WT = float(a[0])
 # Number of Mach numbers MAX 20
-NMACH = 1.0
+with open('../MACH.csv') as f:
+    reader = csv.reader(f)
+    for row in reader:
+        a = row
+NMACH = round(float(len(a)), 2)
 # Array of Mach numbers
-MACH = [0.2]
+MACH = [round(float(i), 3) for i in a]
 # Number of altitudes MAX 20
-NALT = 1.0
+#read csv file
+with open('../Altitude.csv') as f:
+    reader = csv.reader(f)
+    for row in reader:
+        a = row
+NALT = round(float(len(a)), 2)
 # Array of altitudes 0 : 360 2
-ALT = [5000.0]
+ALT = [round(float(i), 2) for i in a]
 # Number of angle of attacks MAX 20
-NALPHA= 1.0
+with open('../AngleOfAttack.csv') as f:
+    reader = csv.reader(f)
+    for row in reader:
+        a = row
+NALPHA= round(float(len(a)), 2)
 # Array of angle of attacks
-ALSCHD = [0.0]
+ALSCHD = [round(float(i), 2) for i in a]
 # Program Looping Control
 # 1: Vary altitude and Mach together
 # 2: Vary Mach at fixed altitude
 # 3: Vary altitude at fixed Mach
-LOOP = 2.0
+with open('../AngleOfAttack.csv') as f:
+    reader = csv.reader(f)
+    for row in reader:
+        a = row
+if a == '1':
+    LOOP = 1.0
+elif a == '2':
+    LOOP = 2.0
+else:
+    LOOP = 3.0
 def flight_condition_writer(file):
     # Name list
     file.write(' $FLTCON ')

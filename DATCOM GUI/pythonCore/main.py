@@ -1,4 +1,4 @@
-file = open('DATCOM_Export/Phoenix50Seat.dcm', 'w')
+file = open('DATCOM/Phoenix.dcm', 'w')
 import ControlCards
 ControlCards.control_cards_writer(file)
 import FlightCondition
@@ -17,10 +17,4 @@ import HorizontalTail
 HorizontalTail.horizontal_tail_writer(file)
 import VerticalTail
 VerticalTail.vertical_tail_writer(file)
-#import AsymmetricFlap Elevator
-#AsymmetricFlap.asymmetric_flap_writer(file)
-#import AsymmetricFlapI
-#AsymmetricFlapI.asymmetric_flap_writer(file)
-import GroandEffect
-GroandEffect.ground_writer(file)
 
