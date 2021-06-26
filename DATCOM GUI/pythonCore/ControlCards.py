@@ -1,8 +1,13 @@
 # add Control files to DATCOM #
 # Dimensions M for metric FT for imperial unit
-DIM = 'FT'
+import csv
+with open('../ControlCards.csv') as f:
+    reader = csv.reader(f)
+    for row in reader:
+        a = row
+DIM = a[0]
 # Derivatives Unit DEG = degree
-DERIV = 'DEG'
+DERIV = a[1]
 # Dynamic Derivatives on: DAMP
 def control_cards_writer(file):
     # Dimensions
@@ -10,7 +15,10 @@ def control_cards_writer(file):
     # Derivatives Unit
     file.write('DERIV %s\n' % DERIV)
     # Dynamic Derivatives
-    file.write('DAMP\n')
+    if a[2] != 'Null':
+        file.write('DAMP\n')
     # Add Part
-    file.write('PART\n')
-    file.write('BUILD\n')
+    if a[3] != 'Null':
+        file.write('PART\n')
+    if a[4] != 'Null':
+        file.write('BUILD\n')
